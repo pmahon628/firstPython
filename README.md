@@ -1,0 +1,2 @@
+# firstPython
+learning python! 
