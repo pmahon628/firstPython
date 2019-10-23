@@ -76,9 +76,9 @@ num1 = input("enter a number: ")
 num2 = input("enter another number: ")
 result = int(num1) + int(num2) 
 # change int to float to get  decimals
-
 print(result)
 
+# mad libs game
 
 
 
