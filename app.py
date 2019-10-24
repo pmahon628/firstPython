@@ -79,6 +79,20 @@ result = int(num1) + int(num2)
 print(result)
 
 # mad libs game
+color = input("Enter a color:")
+plural_noun = input("Enter a plural noun:")
+celebrity = input("Enter a celebrity:")
+
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
+
+# Lists
+freinds = ["Jake", "Joel", "Andy", "Kris", 4,]
+
+print(freinds)
+# refer to elements by index
+
 
 
 
