@@ -41,6 +41,33 @@ def cube(num):
 result = cube(4)
 print(result)
 
+# IF statements
+is_male =  True
+is_tall  = True 
+# check value
+# also and condtion - both need to be true in return
+if is_male  or  is_tall:
+    print("You  are a male or tall or both")
+# else if   
+elif  is_male and not(is_tall):
+    print("You are a short male")
+
+elif not(is_male) and  is_tall:
+    print("You are not male  but  are tall")    
+
+else:
+    print("You are not a male and not tall")
+
+def max_num(num1, num2, num3):
+    if   num_1  >=  num2 and num1 >= num3:
+        return  num1
+    elif num2 >= num1 and  num2 >=  num3;
+       return num2
+    else:
+        return num3
+
+print(max_num(3, 4, 5))  
+
 
 
 
