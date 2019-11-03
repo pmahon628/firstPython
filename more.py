@@ -69,6 +69,26 @@ def max_num(num1, num2, num3):
 print(max_num(3, 4, 5))  
 
 # building a better calculator
+# immediately converts input to float, number
+num1 = float(input("Enter first number: "))
+operator = (input("Enter operator: "))
+num2 = float(input("Enter second number: "))
+
+if op == "+":
+    print(num1 + num2)
+elif ope == "-":
+    print(num1 - num2)
+elif op = "/":
+    print(num1 - num2)
+elif op = "*":
+    print(num1 * num2)
+else:
+    print("Invalid operator")
+
+# Using Dictionaries - key value pairs
+
+
+
 
 
 
