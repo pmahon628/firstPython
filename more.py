@@ -87,6 +87,29 @@ else:
 
 # Using Dictionaries - key value pairs
 
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+print(monthCoversions["Mar"])
+# use .get function to specify certain value if key is invalid
+print(monthConversions.get("Jun", "Default value"))
+
+
+
+
+
 
 
 
