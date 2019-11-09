@@ -1,4 +1,7 @@
 # firstPython
 learning python! 
 
-There is nothing really to deploy or show off here.  This repo is designed for different things you can do in Python. 
+Small projects with Python.
+
+A. pong.py  - this is runnable code - instructions coming when game is finished.
+  - link to play pong: (TBA)
