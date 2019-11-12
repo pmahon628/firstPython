@@ -1,6 +1,7 @@
 # Pong!!!
 
 import turtle 
+import os
 
 window = turtle.Screen()
 window.title("Pong by pat")
@@ -44,8 +45,9 @@ ball.dy = 2
 # pen
 pen = turtle.Turtle()
 pen.speed(0)
+pen.shape("square")
 pen.color("white")
-pen.penup()
+ball.penup()
 pen.hideTurtle()
 pen.goto(0, 260)
 pen.write("Player A: 0", align="center", font=("Courier", 24, "normal"))
@@ -110,14 +112,6 @@ while True:
         ball.setx(340)
         ball.dx *= -1
 
-    elif (ball.ycor() < -340 and ball.xcor() > -350) and (ball.ycor() > paddle_a.ycor() -40 and ball.ycor() < paddle_a.ycor() + 40)
+    elif (ball.ycor() < -340 and ball.xcor() > -350) and (ball.ycor() > paddle_a.ycor() -40 and ball.ycor() < paddle_a.ycor() + 40):
         ball.setx(-340)
         ball.dx *= -1
-
-
-
-
-
-
-
-
