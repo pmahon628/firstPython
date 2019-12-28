@@ -36,28 +36,27 @@ def go_left():
 def move():
     if head.direction == "up":
         y = head.ycor()
-        head.sety(y+ 20)
+        head.sety(y + 20)
 
     if head.direction == "down":
-        y = head.ycor(
-            head.sety(y - 20)
+        y = head.ycor()
+        head.sety(y - 20)
 
     if head.direction == "left":
         x = head.xcor()
-        head.setx(x -20)
+        head.setx(x - 20)
 
     if head.direction == "right":
         x = head.xcor()
         head.setx(x + 20)
-    )
 
 # keyboard bindings
 
 wn.listen()
-wn.onkeypress(go_up, "w")
-wn.onkeypress(go_down, "s")
-wn.onkeypress(go_left, "a")
-wn.onkeypress(go_right, "d")
+wn.onkey(go_up, "w")
+wn.onkey(go_down, "s")
+wn.onkey(go_left, "a")
+wn.onkey(go_right, "d")
 
 # main game loop
 while True:
